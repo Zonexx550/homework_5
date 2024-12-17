@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto";
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-size: 14.4px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #4f4f4f;
+  padding: 16px 22px;
+  border: 1px;
+  position: static;
+}
+
+td {
+  padding: 16px 22px;
+  position: static;
+}
+
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.name {
+  font-size: 14.4px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #4f4f4f;
+  display: flex;
+}
+
+.frame {
+  padding: 0px 0px 0px 16px;
+  margin: 0;
+  display: inline-block;
+}
+
+.bottomtext {
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #757575;
+}
+
+.title {
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #4f4f4f;
+}
+
+.status {
+  border-radius: 30px;
+  padding: 4.2px 7.8px 4.2px 7.8px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  display: inline-block;
+}
+
+.status.active {
+  background-color: #d6f0e0;
+  color: #0d6832;
+}
+
+.status.onboarding {
+  background-color: #dfe7f6;
+  color: #2c58a0;
+}
+
+.status.awaiting {
+  background-color: #fbf0da;
+  color: #73510d;
+}
+
+.position {
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #4f4f4f;
+}
+
+.links a {
+  color: #3b71ca;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 16px 5px 16px;
+}
